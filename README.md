@@ -1,7 +1,7 @@
 # Neural Cellular Automata with Fault Tolerance
 
 **What if neural networks could survive 95% of their weights being corrupted?**
-
+This repository demonstrates a Neural Cellular Automata that generates neural network weights and exhibits damage immunity via emergent dynamics.
 
 
 Standard neural networks collapse under weight corruption. Our NCA-based approach recovers fully—not by repairing damage, but by being immune to it.
@@ -43,7 +43,9 @@ python demo.py
 ```
 
 The demo trains a small NCA on MNIST, corrupts 95% of its state, and shows recovery in real-time.
-
+    
+What you should see-
+After running demo.py, you should see printed accuracy at baseline, after corruption, and after recovery steps, plus an evolving visualization of state recovery in the console.
 ---
 
 ## How It Works
