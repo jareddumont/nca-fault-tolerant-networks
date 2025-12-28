@@ -32,7 +32,7 @@ This is **damage immunity through solution degeneracy**, not self-repair in the 
 
 ```bash
 # Clone
-git clone https://github.com/YOUR_USERNAME/nca-fault-tolerance.git
+git clone https://github.com/jareddumont/nca-fault-tolerant-networks.git
 cd nca-fault-tolerance
 
 # Install
