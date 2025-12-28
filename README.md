@@ -2,7 +2,7 @@
 
 **What if neural networks could survive 95% of their weights being corrupted?**
 
-![Main Result](figures/figure_1_main_result.png)
+
 
 Standard neural networks collapse under weight corruption. Our NCA-based approach recovers fully—not by repairing damage, but by being immune to it.
 
@@ -24,7 +24,7 @@ The NCA learns a **landscape of equivalent solutions** rather than a single corr
 
 This is **damage immunity through solution degeneracy**, not self-repair in the traditional sense.
 
-![Recovery Trajectory](figures/figure_2_recovery_trajectory.png)
+
 
 ---
 
@@ -50,7 +50,7 @@ The demo trains a small NCA on MNIST, corrupts 95% of its state, and shows recov
 
 ### Architecture
 
-![Architecture](figures/figure_6_architecture.png)
+
 
 1. **Hierarchical NCA Grid**: 3D grid of cells with local update rules
 2. **Weight Projection**: Grid state → neural network weights
@@ -75,7 +75,7 @@ The **+28.3% recovery** from additional steps proves this is active self-organiz
 
 ### Damage Type Comparison
 
-![Damage Types](figures/figure_3_damage_types.png)
+
 
 | Damage Type | NCA Recovery | MLP Recovery |
 |-------------|--------------|--------------|
@@ -86,7 +86,7 @@ The **+28.3% recovery** from additional steps proves this is active self-organiz
 
 ### Architecture Ablations
 
-![Ablations](figures/figure_4_ablations.png)
+
 
 - **Grid size**: Larger grids (16³) improve fault tolerance
 - **Hierarchy levels**: 2-3 levels optimal
@@ -108,7 +108,7 @@ The **+28.3% recovery** from additional steps proves this is active self-organiz
 
 The fault tolerance is **task-specific**. An NCA trained on MNIST develops an MNIST-specific attractor basin. It won't magically generalize fault tolerance to unseen tasks.
 
-![Attractor Dynamics](figures/figure_5_attractor_dynamics.png)
+
 
 This is a feature, not a bug—the NCA learns robust dynamics *for the task it's trained on*.
 
