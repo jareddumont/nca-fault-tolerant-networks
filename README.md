@@ -171,12 +171,6 @@ If you use this work, please cite:
 
 ---
 
-## Contact
-
-Questions? Open an issue or reach out at jareddumont1@gmail.com
-
----
-
 ## License
 
 MIT
